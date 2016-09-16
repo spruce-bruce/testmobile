@@ -362,7 +362,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						DevelopmentTeam = X9Y5W2M2FF;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -632,6 +632,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.spruce-bruce.testmobile";
 				PRODUCT_NAME = testmobile;
+				PROVISIONING_PROFILE = "237e8e5a-17aa-4a13-a43a-3e10572fb59d";
+				PROVISIONING_PROFILE_SPECIFIER = Testers;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -657,6 +659,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.spruce-bruce.testmobile";
 				PRODUCT_NAME = testmobile;
+				PROVISIONING_PROFILE = "237e8e5a-17aa-4a13-a43a-3e10572fb59d";
+				PROVISIONING_PROFILE_SPECIFIER = Testers;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
